@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19DE810019DCC912003DEE9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DE80FF19DCC912003DEE9C /* main.m */; };
+		19DE810319DCC912003DEE9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DE810219DCC912003DEE9C /* AppDelegate.m */; };
+		19DE810519DCC912003DEE9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19DE810419DCC912003DEE9C /* Images.xcassets */; };
+		19DE810819DCC912003DEE9C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19DE810619DCC912003DEE9C /* MainMenu.xib */; };
+		19DE811419DCC912003DEE9C /* MessengerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DE811319DCC912003DEE9C /* MessengerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19DE810E19DCC912003DEE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19DE80F219DCC912003DEE9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19DE80F919DCC912003DEE9C;
+			remoteInfo = Messenger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19DE80FA19DCC912003DEE9C /* Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19DE80FE19DCC912003DEE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19DE80FF19DCC912003DEE9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19DE810119DCC912003DEE9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19DE810219DCC912003DEE9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19DE810419DCC912003DEE9C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		19DE810719DCC912003DEE9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		19DE810D19DCC912003DEE9C /* MessengerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessengerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19DE811219DCC912003DEE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19DE811319DCC912003DEE9C /* MessengerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessengerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19DE80F719DCC912003DEE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19DE810A19DCC912003DEE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19DE80F119DCC912003DEE9C = {
+			isa = PBXGroup;
+			children = (
+				19DE80FC19DCC912003DEE9C /* Messenger */,
+				19DE811019DCC912003DEE9C /* MessengerTests */,
+				19DE80FB19DCC912003DEE9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19DE80FB19DCC912003DEE9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19DE80FA19DCC912003DEE9C /* Messenger.app */,
+				19DE810D19DCC912003DEE9C /* MessengerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19DE80FC19DCC912003DEE9C /* Messenger */ = {
+			isa = PBXGroup;
+			children = (
+				19DE810119DCC912003DEE9C /* AppDelegate.h */,
+				19DE810219DCC912003DEE9C /* AppDelegate.m */,
+				19DE810419DCC912003DEE9C /* Images.xcassets */,
+				19DE810619DCC912003DEE9C /* MainMenu.xib */,
+				19DE80FD19DCC912003DEE9C /* Supporting Files */,
+			);
+			path = Messenger;
+			sourceTree = "<group>";
+		};
+		19DE80FD19DCC912003DEE9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19DE80FE19DCC912003DEE9C /* Info.plist */,
+				19DE80FF19DCC912003DEE9C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19DE811019DCC912003DEE9C /* MessengerTests */ = {
+			isa = PBXGroup;
+			children = (
+				19DE811319DCC912003DEE9C /* MessengerTests.m */,
+				19DE811119DCC912003DEE9C /* Supporting Files */,
+			);
+			path = MessengerTests;
+			sourceTree = "<group>";
+		};
+		19DE811119DCC912003DEE9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19DE811219DCC912003DEE9C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19DE80F919DCC912003DEE9C /* Messenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19DE811719DCC912003DEE9C /* Build configuration list for PBXNativeTarget "Messenger" */;
+			buildPhases = (
+				19DE80F619DCC912003DEE9C /* Sources */,
+				19DE80F719DCC912003DEE9C /* Frameworks */,
+				19DE80F819DCC912003DEE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Messenger;
+			productName = Messenger;
+			productReference = 19DE80FA19DCC912003DEE9C /* Messenger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19DE810C19DCC912003DEE9C /* MessengerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19DE811A19DCC912003DEE9C /* Build configuration list for PBXNativeTarget "MessengerTests" */;
+			buildPhases = (
+				19DE810919DCC912003DEE9C /* Sources */,
+				19DE810A19DCC912003DEE9C /* Frameworks */,
+				19DE810B19DCC912003DEE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19DE810F19DCC912003DEE9C /* PBXTargetDependency */,
+			);
+			name = MessengerTests;
+			productName = MessengerTests;
+			productReference = 19DE810D19DCC912003DEE9C /* MessengerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19DE80F219DCC912003DEE9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Nirav Savjani";
+				TargetAttributes = {
+					19DE80F919DCC912003DEE9C = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					19DE810C19DCC912003DEE9C = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 19DE80F919DCC912003DEE9C;
+					};
+				};
+			};
+			buildConfigurationList = 19DE80F519DCC912003DEE9C /* Build configuration list for PBXProject "Messenger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19DE80F119DCC912003DEE9C;
+			productRefGroup = 19DE80FB19DCC912003DEE9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19DE80F919DCC912003DEE9C /* Messenger */,
+				19DE810C19DCC912003DEE9C /* MessengerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19DE80F819DCC912003DEE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DE810519DCC912003DEE9C /* Images.xcassets in Resources */,
+				19DE810819DCC912003DEE9C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19DE810B19DCC912003DEE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19DE80F619DCC912003DEE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DE810319DCC912003DEE9C /* AppDelegate.m in Sources */,
+				19DE810019DCC912003DEE9C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19DE810919DCC912003DEE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DE811419DCC912003DEE9C /* MessengerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19DE810F19DCC912003DEE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19DE80F919DCC912003DEE9C /* Messenger */;
+			targetProxy = 19DE810E19DCC912003DEE9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19DE810619DCC912003DEE9C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19DE810719DCC912003DEE9C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19DE811519DCC912003DEE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		19DE811619DCC912003DEE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		19DE811819DCC912003DEE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Messenger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		19DE811919DCC912003DEE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Messenger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		19DE811B19DCC912003DEE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MessengerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Messenger.app/Contents/MacOS/Messenger";
+			};
+			name = Debug;
+		};
+		19DE811C19DCC912003DEE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MessengerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Messenger.app/Contents/MacOS/Messenger";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19DE80F519DCC912003DEE9C /* Build configuration list for PBXProject "Messenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19DE811519DCC912003DEE9C /* Debug */,
+				19DE811619DCC912003DEE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19DE811719DCC912003DEE9C /* Build configuration list for PBXNativeTarget "Messenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19DE811819DCC912003DEE9C /* Debug */,
+				19DE811919DCC912003DEE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19DE811A19DCC912003DEE9C /* Build configuration list for PBXNativeTarget "MessengerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19DE811B19DCC912003DEE9C /* Debug */,
+				19DE811C19DCC912003DEE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19DE80F219DCC912003DEE9C /* Project object */;
+}
