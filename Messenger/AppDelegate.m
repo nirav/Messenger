@@ -38,9 +38,7 @@
   NSURL *url = [NSURL URLWithString:@"http://www.messenger.com"];
   NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
   
-  self.webView = [[WebView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)
-                                      frameName:@"main"
-                                      groupName:@"main"];
+  self.webView = [[WebView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
   self.window.contentView = self.webView;
   
   [[self.webView mainFrame] loadRequest:urlRequest];
