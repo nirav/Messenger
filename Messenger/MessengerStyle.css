@@ -1,0 +1,15 @@
+#rightCol { display: none !important; }
+#pagelet_bluebar { display: none !important; }
+#pagelet_dock { display: none !important; }
+#pagelet_sidebar { display: none !important; }
+#globalContainer { padding-right: 0 !important; }
+.fbx #globalContainer { width: auto !important; }
+
+html, body { overflow: hidden !important; }
+.emoticonsPanel div.panelFlyout { right: 0 !important; }
+.emoticonsPanel div.panelFlyoutArrow { left: auto !important; right: 4px !important; }
+
+form[action="https://upload.facebook.com/ajax/mercury/upload.php"] { display: none !important; }
+
+.MercuryThreadImage img { border-radius: 50%; }
+.webMessengerMessageGroup img.img { border-radius: 50%; }

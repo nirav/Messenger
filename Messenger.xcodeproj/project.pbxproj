@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1914350419DD26C700145408 /* WebViewJavascriptBridge.js.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1914350219DD26C700145408 /* WebViewJavascriptBridge.js.txt */; };
+		1914350519DD26C700145408 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1914350319DD26C700145408 /* WebViewJavascriptBridge.m */; };
 		19DE810019DCC912003DEE9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DE80FF19DCC912003DEE9C /* main.m */; };
 		19DE810319DCC912003DEE9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DE810219DCC912003DEE9C /* AppDelegate.m */; };
 		19DE810519DCC912003DEE9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19DE810419DCC912003DEE9C /* Images.xcassets */; };
 		19DE810819DCC912003DEE9C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19DE810619DCC912003DEE9C /* MainMenu.xib */; };
 		19DE811419DCC912003DEE9C /* MessengerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DE811319DCC912003DEE9C /* MessengerTests.m */; };
+		19DE811E19DCCB03003DEE9C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DE811D19DCCB03003DEE9C /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1914350119DD26C700145408 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		1914350219DD26C700145408 /* WebViewJavascriptBridge.js.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WebViewJavascriptBridge.js.txt; sourceTree = "<group>"; };
+		1914350319DD26C700145408 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
 		19DE80FA19DCC912003DEE9C /* Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19DE80FE19DCC912003DEE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19DE80FF19DCC912003DEE9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,6 +41,7 @@
 		19DE810D19DCC912003DEE9C /* MessengerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessengerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19DE811219DCC912003DEE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19DE811319DCC912003DEE9C /* MessengerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessengerTests.m; sourceTree = "<group>"; };
+		19DE811D19DCCB03003DEE9C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19DE811E19DCCB03003DEE9C /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +69,7 @@
 				19DE80FC19DCC912003DEE9C /* Messenger */,
 				19DE811019DCC912003DEE9C /* MessengerTests */,
 				19DE80FB19DCC912003DEE9C /* Products */,
+				19DE811D19DCCB03003DEE9C /* WebKit.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +85,9 @@
 		19DE80FC19DCC912003DEE9C /* Messenger */ = {
 			isa = PBXGroup;
 			children = (
+				1914350119DD26C700145408 /* WebViewJavascriptBridge.h */,
+				1914350219DD26C700145408 /* WebViewJavascriptBridge.js.txt */,
+				1914350319DD26C700145408 /* WebViewJavascriptBridge.m */,
 				19DE810119DCC912003DEE9C /* AppDelegate.h */,
 				19DE810219DCC912003DEE9C /* AppDelegate.m */,
 				19DE810419DCC912003DEE9C /* Images.xcassets */,
@@ -191,6 +203,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1914350419DD26C700145408 /* WebViewJavascriptBridge.js.txt in Resources */,
 				19DE810519DCC912003DEE9C /* Images.xcassets in Resources */,
 				19DE810819DCC912003DEE9C /* MainMenu.xib in Resources */,
 			);
@@ -211,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19DE810319DCC912003DEE9C /* AppDelegate.m in Sources */,
+				1914350519DD26C700145408 /* WebViewJavascriptBridge.m in Sources */,
 				19DE810019DCC912003DEE9C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +342,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Messenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -339,6 +354,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Messenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -398,6 +414,7 @@
 				19DE811919DCC912003DEE9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19DE811A19DCC912003DEE9C /* Build configuration list for PBXNativeTarget "MessengerTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +423,7 @@
 				19DE811C19DCC912003DEE9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
